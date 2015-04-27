@@ -1,7 +1,109 @@
 body {
-    width: 900px;
     margin: auto;
+    font: 16px 'Bebas Neue', Verdana;
+    background-color: #ffffff;
 }
-.col-sm-4 {
-    background-color: aqua;
+.wrapper {
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    background-color: #f4f2ec;
+}
+@font-face {
+    font-family: Bebas Neue;
+    src: url("fonts/BebasNeue.otf");
+}
+.col-xs-6 {
+    float: left;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    border-bottom: solid #d14343;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #8c8c8c;
+    border-bottom: solid #d14343;
+    background: none;
+    font-weight: bold;
+}
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+a {
+    color: #bebebe;
+}
+.page-header {
+    text-align: center;
+}
+.hello {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hello2 {
+    font-size: 85%;
+}
+.about_me {
+    border-bottom: solid #bebebe;
+    color: #d14343;
+    font-weight: bold;
+}
+.skills {
+    border-bottom: solid #bebebe;
+    color: #d14343;
+    font-weight: bold;
+}
+.about_me2 {
+    text-align: justify;
+    float: right;
+    margin: 5px;
+    width: 300px;
+    font-size: 10px;
+}
+.web {
+    text-align: left;
+    color: #8c8c8c;
+    font-weight: bold;
+}
+.GD {
+    text-align: left;
+    color: #8c8c8c;
+    font-weight: bold;
+}
+.ul {
+    color: #d14343;
+    padding: 0px;
+    line-height: 0px;
+}
+.li {
+    color: #8c8c8c;
+}
+.nav_2 {
+    list-style: none;
+    font-size: 12px;
+
+}
+.nav_2 > li {
+    float: left;
+    margin: 5px;
+}
+.nav_2 > li.active > a,
+.nav_2 > li.active > a:hover,
+.nav_2 > li.active > a:focus {
+    color: #d14343;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.nav_2 > li > a,
+.nav_2 > li > a:hover,
+.nav_2 > li > a:focus {
+    color: #8c8c8c;
+    text-decoration: none;
+}
+.iframe_mw {
+    border: none;
+    background-color: #f4f2ec;
 }
