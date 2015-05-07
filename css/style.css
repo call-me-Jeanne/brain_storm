@@ -1,7 +1,7 @@
 body {
     margin: auto;
     font: 16px 'Bebas Neue', Verdana;
-    background-color: #ffffff;
+    background-color: #b7b7b7;
     height: 100%; /*footer*/
 }
 html {
@@ -11,181 +11,12 @@ html {
     width: 900px;
     padding: 20px;
     margin: auto;
-    background-color: #f4f2ec;
+    background-color: #3c90f4;
     min-height: 96%; /*footer*/
 }
 @font-face {
     font-family: Bebas Neue;
     src: url("fonts/BebasNeue.otf");
-}
-.col-xs-6 {
-    float: left;
-}
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-    border-bottom: solid #d14343;
-}
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-    color: #8c8c8c;
-    border-bottom: solid #d14343;
-    background: none;
-    font-weight: bold;
-}
-.nav-pills > li > a {
-    border-radius: 0px;
-}
-a {
-    color: #bebebe;
-}
-.page-header {
-    text-align: center;
-}
-.hello {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.hello2 {
-    font-size: 85%;
-}
-.about_me {
-    border-bottom: solid #bebebe;
-    color: #d14343;
-    font-weight: bold;
-    margin-left: 20px;
-}
-.skills {
-    border-bottom: solid #bebebe;
-    color: #d14343;
-    font-weight: bold;
-    margin-right: 15px;
-}
-.about_me2 {
-    text-align: justify;
-    float: right;
-    margin: 5px;
-    width: 300px;
-    font-size: 12px;
-    color: #8c8c8c;
-    line-height: 1.25;
-}
-.web {
-    text-align: left;
-    color: #8c8c8c;
-    font-weight: bold;
-}
-.GD {
-    text-align: left;
-    color: #8c8c8c;
-    font-weight: bold;
-}
-.ul {
-    color: #d14343;
-    padding: 0px;
-    line-height: 0px;
-}
-.li {
-    color: #8c8c8c;
-    text-align: left;
-}
-.nav_2 {
-    list-style: none;
-    font-size: 12px;
-
-}
-.nav_2 > li {
-    float: left;
-    margin: 5px;
-}
-.nav_2 > li.active > a,
-.nav_2 > li.active > a:hover,
-.nav_2 > li.active > a:focus {
-    color: #d14343;
-    text-decoration: none;
-    font-weight: bold;
-
-}
-.nav_2 > li > a,
-.nav_2 > li > a:hover,
-.nav_2 > li > a:focus {
-    color: #8c8c8c;
-    text-decoration: none;
-}
-.iframe_mw {
-    border: none;
-    background-color: #f4f2ec;
-}
-.col-xs-6-web {
-    margin-top: -20px;
-}
-.work {
-    font-weight: bold;
-    text-decoration: none;
-    color: #d14343;
-    border: none;
-}
-.brd_btm {
-    margin-top: -11px;
-    border-bottom: solid #bebebe;
-}
-.projectname_style {
-    font-weight: bold;
-    font-size: 12px;
-    color: #8c8c8c;
-    text-align: center;
-}
-.projectname_style:hover, .projectname_style:focus {
-    text-align: center;
-    color: #d14343;
-    text-decoration: none;
-}
-.col-xs-3>a>p {
-    margin-bottom: 0px;
-}
-label {
-    color: #8c8c8c;
-}
-.contactstyle {
-    font-weight: bold;
-    font-size: 24px;
-}
-.contactstyle>a>p {
-    color: #d14343;
-    text-decoration: none;
-    margin-bottom: -1px;
-}
-.contactstyle>a {
-    text-decoration: none;
-}
-address {
-    font-size: 12px;
-    color: #bebebe;
-}
-address>strong {
-    color: #8c8c8c;
-    font-weight: bold;
-}
-address>a {
-    color: #d14343;
-}
-.messagestyle {
-    margin-top: -120px;
-}
-.btn-default {
-    background-color: #d14343;
-    border-radius: 0px;
-    margin-top: 5px;
-}
-.brd_btm2 {
-    border-bottom: solid #bebebe;
-}
-.brd_btm3 {
-    border-bottom: solid #bebebe;
-}
-.col-xs-12.contactstyle {
-    width: 150px;
 }
 .page-buffer{ /*footer*/
     height: 35px; /*основа прижатого футера*/
@@ -194,15 +25,8 @@ address>a {
     text-align: center;
 }
 .footer {
-    border-top: solid #bebebe;
     margin: auto;
     width: 900px;
     height: 35px;
-    font: 10px 'Bebas Neue', Verdana;
-    background-color: #f4f2ec;
-    color: #8c8c8c;
-}
-.icon_sn {
-    float: right;
-    margin-right: 20px;
+
 }
