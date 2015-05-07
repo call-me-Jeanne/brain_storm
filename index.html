@@ -9,16 +9,50 @@
   <link rel="icon" href="image/favicon.png" type="image/x-icon">
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-
+<script src="js/lessons.js"></script>
   <![endif]-->
 </head>
 <body>
 <div class="wrapper">
   <header>
-<script src="js/lessons.js"></script>
   </header>
   <section>
+      <script src="js/lessons.js"></script>
+<div>
+    <button onclick="razmer();">Создать массив</button>
+    <button onclick="zapolnenie();">Заполнить массив</button>
+    <button onclick="vivod();">Вывести текуший массив</button>
+    <button onclick="vivod_el();">Вывести элемент по выбору</button>
+    <button onclick="zanul();">автозаполнение массива</button>
+    <button onclick="dell();">грохнуть массив</button>
+    <button onclick="dell_el();">грохнуть элемент</button>
 
+    не работает:
+    <iframe id="iframe" width="800" style="border: none" src="vivod.html"></iframe><br>
+    <input type="button" value="refresh" onClick="document.getElementById('dt').contentWindow.location.reload();">
+    <button class="1">Передать информацию в iframe</button>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            var popup = null;
+            var sendObject = {
+                title: 'Тестовое сообщение',
+                value: 5000
+            };
+
+            $('.btn-iframe').click(function(){
+                var iframe = $('#iframe');
+                iframe[0].contentWindow.postMessage(sendObject, document.location);
+            });
+
+            $('.1').click(function(){
+                popup.postMessage(sendObject, '*');
+            });
+
+        });
+    </script>
+
+</div>
   </section>
 </div>
 <div class="page-buffer"></div>
