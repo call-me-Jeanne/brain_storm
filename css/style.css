@@ -18,6 +18,42 @@ html {
     font-family: Bebas Neue;
     src: url("fonts/BebasNeue.otf");
 }
+.button {
+    background-color: #fffe3f;
+    border: none;
+    height: 40px;
+    width: 275px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.button:hover {
+    color: #d14343;
+    font-weight: bold;
+}
+.back {
+    float: right;
+    border: none;
+    background-color: #fffe3f;
+    margin-top: 10px;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.back:hover {
+    background-color: chartreuse;
+}
+.gop {
+    height: 60%;
+}
+.again {
+    background-color: #fffe3f;
+    border: none;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
 .create {
     background-color: #fffe3f;
     border: none;
@@ -43,8 +79,16 @@ html {
     background-color: #fffe3f;
     border: none;
     height: 40px;
-    width: 420px;
+    width: 200px;
     margin-left: 10px;
+    margin-top: -100px;
+}
+.blender {
+    background-color: #fffe3f;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-left: 230px;
     margin-top: -100px;
 }
 .dell {
@@ -64,6 +108,10 @@ html {
 }
 .margin {
     margin-top: -45px;
+}
+.otstup {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .page-buffer{ /*footer*/
     height: 35px; /*основа прижатого футера*/

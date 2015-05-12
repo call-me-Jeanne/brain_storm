@@ -225,8 +225,12 @@ function zapolnenie () {
         alert("Массив не создан!");
 }
 
+function blender () {
+    a= a.reverse(); //пока только разворот, но будем писать и рандомайзер...
+}
+
 function warp() {
-    var ok = confirm('Нажмите "OK" и продолжим заполнение, "Cancel" - вернемся на главную')
+    var ok = confirm('Нажмите "OK" и продолжим заполнение, "Cancel" - вернемся на главную');
     if (ok)
         zapolnenie();
 }
@@ -242,7 +246,8 @@ function dell_el (){
 }
 
 function myfunc(){
-        var fr = document.getElementById('myframe');
-    fr.contentWindow.document.write("<button style='width: 350px; background-color: #fffe3f; border: none; height: 20px; margin-top: -10px;' onClick='location.reload()'>вывести массив на экран</button>");
+    var fr = document.getElementById('myframe');
     fr.contentWindow.document.write("<h1 style='text-align: center'>" + a + "</h1>");
+    fr.contentWindow.document.close();
+    setInterval("myfunc()", 100);
 }
