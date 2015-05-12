@@ -18,6 +18,53 @@ html {
     font-family: Bebas Neue;
     src: url("fonts/BebasNeue.otf");
 }
+.create {
+    background-color: #fffe3f;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.null {
+    background-color: #fffe3f;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.frame {
+    width: 400px;
+    margin-left: 30px;
+    border: solid #fffe3f;
+}
+.zapoln {
+    background-color: #fffe3f;
+    border: none;
+    height: 40px;
+    width: 420px;
+    margin-left: 10px;
+    margin-top: -100px;
+}
+.dell {
+    background-color: #fffe3f;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.dell_el {
+    background-color: #fffe3f;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-left: 5px;
+}
+.margin {
+    margin-top: -45px;
+}
 .page-buffer{ /*footer*/
     height: 35px; /*основа прижатого футера*/
     margin-top: -35px; /*отступ и размер должны совпадать*/
