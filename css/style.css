@@ -113,6 +113,15 @@ html {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.rotate {
+    margin-left: 280px;
+    height: 300px;
+    width: 300px;
+}
+.center {
+    margin-left: 285px;
+    margin-top: 30px;
+}
 .page-buffer{ /*footer*/
     height: 35px; /*основа прижатого футера*/
     margin-top: -35px; /*отступ и размер должны совпадать*/

@@ -21,10 +21,13 @@
       <script src="js/gop3.js"></script>
       <div class="row">
           <button class="button col-xs-3" onclick="schetchik();">кнопка для накрутки значения где-то там</button>
-      <iframe class="col-xs-6 frame" onload="myfunc()" id="myframe">        </iframe>
+      <iframe class="col-xs-6 frame" id="myframe">        </iframe>
       </div>
       <div class="row">
-          <input class="col-xs-6 button" style="margin-top: -40px" type="button" value="прямо тут" onclick="schetchik2(); this.value='вы кликнули тут ' + j+ ' раз'">
+          <input class="col-xs-6 button" style="margin-top: -100px" type="button" value="обнулить" onclick="zanul()">
+      </div>
+      <div class="row">
+          <input class="col-xs-6 button" style="margin-top: -40px" type="button" value="прямо тут" onclick="schetchik2(); this.value='вы кликнули тут ' + j+ ' раз'" id="button">
       </div>
       <div class="row">
           <button class="back col-xs-2" style="height: 20px" onclick="window.location.href='index.html'">вернуться на главную</a></button>
