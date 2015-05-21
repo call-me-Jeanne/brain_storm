@@ -26,5 +26,4 @@ function vivod_frame2 () {
     str=str.split(',');
     b.contentWindow.document.write("<div><h1>" + str + "</h1><div>");
     b.contentWindow.document.close();
-    alert(str[1]+str[2]);
 }
