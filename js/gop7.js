@@ -1,6 +1,7 @@
 var a=[];
 var b=[];
 var c=[];
+var g=[];
 
 var d, r, e, f, j, h, k;
 d=0;
@@ -101,31 +102,78 @@ function butt0 () {
         a[i]=0;
     myfunc_1();
 }
-
+function butt_dot() {
+    if (d!=0){
+        b[i]=".";
+        myfunc_1();
+    }
+    else
+        a[i]=".";
+    myfunc_1();
+}
 function butt_plus() {
     c[0]='+';
     i=-1;
     d=1;
     myfunc_1();
 }
+function butt_minus() {
+    c[0]='-';
+    i=-1;
+    d=4;
+    myfunc_1();
+}
+function butt_razdel() {
+    c[0]=':';
+    i=-1;
+    d=2;
+    myfunc_1();
+}
+function butt_reverse() { /*дописать реверс знака*/
+    i = -1;
+    d = 3;
+    e= a.join("");
+    e=parseFloat(e);
+   if (e>0){
+    e=-e;
+    ravno();
+    }
+    else
+        alert(e);
+        e=+e;
+        ravno();
+    }
 function ravno(){
-    a=+a;
-    b=+b;
-    alert (a);
-    alert (b);
-    r=a+b;
-    myfunc();
+    e= a.join("");
+    f= b.join("");
+    e=parseFloat(e);
+    f=parseFloat(f);
+    if (d==1){
+        r=e+f;
+        myfunc();}
+    if(d==2){
+        r=e/f;
+        myfunc();}
+    if(d==3){
+        myfunc_2();}
+    if(d==4){
+        r=e-f;
+        myfunc();}
+
 }
 
 function myfunc_1(){
     var fr = document.getElementById('myframe');
     fr.contentWindow.document.write("<h1 style='text-align: center'>" + a.join("") + c + b.join("") + "</h1>");
     fr.contentWindow.document.close();
-    setInterval("myfunc()", 100);
 }
 function myfunc(){
     var fr = document.getElementById('myframe');
     fr.contentWindow.document.write("<h1 style='text-align: center'>" + r + "</h1>");
     fr.contentWindow.document.close();
-    setInterval("myfunc()", 100);
+}
+function myfunc_2(){
+    var fr = document.getElementById('myframe');
+    fr.contentWindow.document.write("<h1 style='text-align: center'>" + e + "</h1>");
+    fr.contentWindow.document.close();
 }
