@@ -1,6 +1,8 @@
 prikol();
 
 function prikol() {
+    var goodAnswer = 'От души, ёпт!';
+
     //ввод данных пользователем и запись полученного в num
     var num = parseInt(prompt("Введите число от одного до пяти включительно:"));
 
@@ -10,19 +12,19 @@ function prikol() {
         //переключатель в зависимости от введенных данных
         switch (num) {
             case 1:
-                alert("От души, ёпт!");
+                alert(goodAnswer);
                 break;
             case 2:
-                alert("От души, ёпт!");
+                alert(goodAnswer);
                 break;
             case 3:
-                alert("От души, ёпт!");
+                alert(goodAnswer);
                 break;
             case 4:
-                alert("От души, ёпт!");
+                alert(goodAnswer);
                 break;
             case 5:
-                alert("От души, ёпт!");
+                alert(goodAnswer);
                 break;
         }
     }
