@@ -8,25 +8,7 @@ function prikol() {
 
     //проверка введенных данных на соответствие условиям
     if (num === 1 || num === 2 || num === 3 || num === 4 || num === 5) {
-
-        //переключатель в зависимости от введенных данных
-        switch (num) {
-            case 1:
-                alert(goodAnswer);
-                break;
-            case 2:
-                alert(goodAnswer);
-                break;
-            case 3:
-                alert(goodAnswer);
-                break;
-            case 4:
-                alert(goodAnswer);
-                break;
-            case 5:
-                alert(goodAnswer);
-                break;
-        }
+        alert(goodAnswer);
     }
     else {
         //доебывается
